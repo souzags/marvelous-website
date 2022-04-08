@@ -1,0 +1,202 @@
+@font-face {
+  font-family: source-sans-pro;
+  src: url(/fonts/SourceSansPro-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: source-sans-pro;
+  src: url(/fonts/SourceSansPro-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: source-sans-pro;
+  src: url(/fonts/SourceSansPro-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: source-sans-pro;
+  src: url(/fonts/SourceSansPro-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+body, html {
+  height: 100%;
+  margin: 0%;
+  font-family: source-sans-pro;
+}
+
+#front-face {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("/img/home/vegetables-g0327cafe6_1920.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: inherit;
+  height: 100%;
+  width: 100%;
+}
+
+#about {
+  height: 100%;
+  font-family: source-sans-pro;
+  background-color: white;
+}
+
+#front {
+  display: -ms-grid;
+  display: grid;
+  background-color: white;
+  border-radius: 8px;
+  font-family: inherit;
+  margin: auto;
+  max-width: 20%;
+  padding: 20px;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-box-shadow: 2px 2px 3px 1px #00000077;
+          box-shadow: 2px 2px 3px 1px #00000077;
+}
+
+#front img {
+  margin: auto;
+  max-width: 100%;
+}
+
+.link-button {
+  background-color: #96f550ff;
+  border-radius: 4px;
+  color: white;
+  font-family: source-sans-pro;
+  font-weight: 600;
+  font-size: 16pt;
+  margin: auto;
+  margin-top: 20%;
+  padding: 10px 4px;
+  text-decoration: none;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  width: 50%;
+}
+
+.link-button:hover {
+  background-color: #78c740;
+  color: white;
+}
+
+.link-button:hover:active {
+  -webkit-box-shadow: 0px 0px 2px 2px #96f550ff;
+          box-shadow: 0px 0px 2px 2px #96f550ff;
+}
+
+.content-container {
+  margin: 0%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.content-container .content-wrap {
+  padding: 8px;
+  font-size: x-large;
+  max-width: 45%;
+  text-align: justify;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.content-container .content-wrap h1 {
+  text-align: left;
+  margin: auto;
+}
+
+.content-container .content-wrap img {
+  border-radius: 6px;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 500px;
+  background-color: white;
+  border: 1px solid lightgray;
+  font-size: 14pt;
+  border-radius: 6px;
+  margin: auto;
+  padding: 50px;
+  -webkit-box-shadow: 2px 2px 4px #00000077;
+          box-shadow: 2px 2px 4px #00000077;
+}
+
+form div {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+form div input {
+  height: 25px;
+  border-radius: 8px;
+  outline: none;
+  border: 2px solid lightgray;
+  padding: 0 20px;
+  -webkit-box-shadow: 2px 2px 4px #00000077;
+          box-shadow: 2px 2px 4px #00000077;
+  margin: auto;
+}
+
+form div input:focus {
+  border: 2px solid gray;
+}
+
+.form-title {
+  font-size: 20pt;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  height: 45px;
+  background-color: #96f550ff;
+  border: 0px;
+  border-radius: 8px;
+  color: white;
+  font-size: 14pt;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 4px #00000077;
+          box-shadow: 2px 2px 4px #00000077;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+button:hover {
+  background-color: #78c740;
+}
+/*# sourceMappingURL=main.css.map */
